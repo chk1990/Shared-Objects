@@ -4,7 +4,7 @@
 
 cmake_minimum_required(VERSION 3.16.3)
 project (testLib)
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 20)
 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/inc)
 add_library(testLib SHARED src/test.cpp)
