@@ -4,7 +4,7 @@
 
 cmake_minimum_required(VERSION 3.16.3)
 project (testingTestLib)
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 20)
 
 add_compile_options(-Wall -Wextra -Wpedantic -L/usr/lib/libtestLib.so)
 
